@@ -1,0 +1,29 @@
+//Basic Sum
+int sum = 19 + 7;
+//Basic Subtraction
+int difference = 19 - 3;
+//Basic Multiplication
+int product = 7 * 5;
+//Basic Division
+int quotient = 7 / 5;
+//Division with decimal point
+//Grants more accuracy
+decimal decimalQuotient = 7.0m / 5; 
+
+//Cast int to decimal meaning temporarily change data type from int to a decimal
+//This is for the compiler to be able to understand a temporary change in typing.
+int first = 44;
+int second = 3;
+decimal quotientTwo = (decimal)first / (decimal)second;
+
+//Results printed to console here.
+Console.WriteLine("Sum: " + sum);
+Console.WriteLine("Difference: " + difference);
+Console.WriteLine("Product: " + product);
+Console.WriteLine("Quotient: " + quotient);
+Console.WriteLine($"Decimal Quotient: {decimalQuotient}");
+Console.WriteLine($"Quotient Two: {quotientTwo}");
+
+//Basic Modulus example (getting the remainder) is demonstrated here.
+Console.WriteLine($"Modulus of 995 / 5 : {995 % 5}");
+Console.WriteLine($"Modulus of 15 / 6 : {15 % 6}");
